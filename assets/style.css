@@ -1,0 +1,96 @@
+.body {
+	padding : 0px;
+	margin : 0px;
+	display : block;
+    background-image: url("backindback.png");
+    background-color: #ffffff;
+    background-size: 100%;
+     background-repeat: no-repeat;
+}
+.body1 {
+    padding : 0px;
+    margin : 0px;
+    display : block;
+}
+.mainimg{
+    opacity: 0.75;
+}
+.mainimg:hover{
+    opacity: 0.5;
+}
+.transLeft{
+	background-color: #ffffff;
+	opacity: 0.75;
+    width: 40%;
+	padding: 15px 30px;
+
+}
+
+.transRight{
+	background-color: #f5f5f5;
+    width: 80%;
+}
+.fontheader{
+	font-family:Roboto;
+	font-size:32px;
+        color:#616161;
+}
+.fontsubcontent{
+    font-family:Roboto;
+    font-size:16px;
+}
+.fontcontent{
+	font-family:Roboto;
+	font-size:14px;
+}
+
+input[type=text]{
+	margin: 5px 0;
+    color: #000000;
+    padding: 10px 10px 10px;
+    display: inline-block;
+    border: 1px solid #9e9e9e;
+    font-size:14px;
+    background-color: transparent;
+}
+input[type=password]{
+    margin: 5px 0;
+    color: #000000;
+    padding: 10px 10px 10px;
+    display: inline-block;
+    border: 1px solid #9e9e9e;
+    font-size:14px;
+    background-color: transparent;
+}
+.btnsubmit{
+
+    background-color: #ffc400;
+    color: #ffffff;
+    width: 100%;
+    padding: 7px 40px;
+    display: inline-block;
+    border: 1px solid #ffc400;
+    cursor: pointer;
+    font-family:Roboto;
+    font-size:18px;
+}
+.btnsubmit:hover{
+    background-color: transparent;
+    color: #ffffff;
+    width: 100%;
+    padding: 7px 40px;
+    display: inline-block;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    font-family:Roboto;
+    font-size:18px;
+
+}
+.btnsearch{
+    background-color: #616161;
+    padding: 3.5px 5px;
+    margin: 4px 0;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
